@@ -13,21 +13,21 @@ However, as long as security fixes will come in I see it as my basic obligation 
 
 # Zipper
 
-[![Build Status](https://travis-ci.org/Chumper/Zipper.png)](https://travis-ci.org/Chumper/Zipper)
+[![Build Status](https://travis-ci.org/Mohamedahmed00/Zipper.png)](https://travis-ci.org/Mohamedahmed00/Zipper)
 
 This is a simple Wrapper around the ZipArchive methods with some handy functions.
 
 ## Installation
 
 1. Add this package to the list of required packages, inside `composer.json`
-  * for Laravel 5: `"chumper/zipper": "1.0.x"`
-  * ~~for Laravel 4: `"chumper/zipper": "0.5.x"`~~
+  * for Laravel 5: `"Mohamedahmed00/zipper": "1.0.x"`
+  * ~~for Laravel 4: `"Mohamedahmed00/zipper": "0.5.x"`~~
 2. Run `composer update`
 
 3. Go to `app/config/app.php`
 
-  * add to providers `Chumper\Zipper\ZipperServiceProvider::class`
-  * add to aliases `'Zipper' => Chumper\Zipper\Zipper::class`
+  * add to providers `Mohamedahmed00\Zipper\ZipperServiceProvider::class`
+  * add to aliases `'Zipper' => Mohamedahmed00\Zipper\Zipper::class`
 
 You can now access Zipper with the `Zipper` alias.
 
@@ -40,7 +40,7 @@ Zipper::make('public/test.zip')->add($files)->close();
 
 ## Another example
 ```php
-$zipper = new \Chumper\Zipper\Zipper;
+$zipper = new \Mohamedahmed00\Zipper\Zipper;
 
 $zipper->make('test.zip')->folder('test')->add('composer.json');
 $zipper->zip('test.zip')->folder('test')->add('composer.json','test');

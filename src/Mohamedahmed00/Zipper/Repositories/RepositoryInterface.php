@@ -1,6 +1,6 @@
 <?php
 
-namespace Chumper\Zipper\Repositories;
+namespace Mohamedahmed00\Zipper\Repositories;
 
 /**
  * RepositoryInterface that needs to be implemented by every Repository

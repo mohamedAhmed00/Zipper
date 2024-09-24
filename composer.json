@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MohamedAhmed00\\Zipper\\": "src/mohamedAhmed00/Zipper"
+            "Mohamedahmed00\\Zipper\\": "src/Mohamedahmed00/Zipper"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MohamedAhmed00\\Zipper\\": "tests/"
+            "Mohamedahmed00\\Zipper\\": "tests/"
         }
     },
     "config": {
@@ -40,10 +40,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "mohamedAhmed00\\Zipper\\ZipperServiceProvider"
+                "Mohamedahmed00\\Zipper\\ZipperServiceProvider"
             ],
             "aliases": {
-                "Zipper": "mohamedAhmed00\\Zipper\\Zipper"
+                "Zipper": "Mohamedahmed00\\Zipper\\Zipper"
             }
         }
     },

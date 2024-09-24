@@ -3,13 +3,14 @@
     "type": "library",
     "description": "This is a little neat helper for the ZipArchive methods with handy functions",
     "keywords": ["laravel", "ZIP", "Archive"],
-    "homepage": "https://github.com/mohamedAhmed00/Zipper",
-    "license": "Apache2",
+    "homepage":
+    "https://github.com/mohamedAhmed00/Zipper",
+
+    "license": "MIT",
     "authors": [
         {
-            "name": "Nils Plaschke",
-            "email": "github@nilsplaschke.de",
-            "homepage": "http://nilsplaschke.de",
+            "name": "mohamed ahmed",
+            "email": "engmohamedahmed00@gmail.com",
             "role": "Developer"
         }
     ],
@@ -46,6 +47,5 @@
             }
         }
     },
-    "minimum-stability": "dev",
     "prefer-stable": true
 }

@@ -20,8 +20,8 @@ This is a simple Wrapper around the ZipArchive methods with some handy functions
 ## Installation
 
 1. Add this package to the list of required packages, inside `composer.json`
-  * for Laravel 5: `"Mohamedahmed00/zipper": "1.0.x"`
-  * ~~for Laravel 4: `"Mohamedahmed00/zipper": "0.5.x"`~~
+  * for Laravel 5: `"mohamedahmed00/zipper": "1.0.x"`
+  * ~~for Laravel 4: `"mohamedahmed00/zipper": "0.5.x"`~~
 2. Run `composer update`
 
 3. Go to `app/config/app.php`
